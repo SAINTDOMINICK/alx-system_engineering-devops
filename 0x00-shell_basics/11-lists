@@ -1,17 +1,2 @@
 #!/bin/bash
 ls -al /boot
-Here's how it works:
-
-The ls command is used to list the files in a directory.
-The -a option is used to show hidden files, including those with names beginning with a period character.
-The -l option is used to show the files in long format, which includes details such as file permissions, ownership, and file size.
-The script first lists the files in the current directory using the ls -al command.
-It then navigates to the parent directory using the cd .. command, and lists the files in the parent directory using ls -al.
-Finally, it lists the files in the /boot directory using ls -al /boot.
-You can save this script as a file with a .sh extension (e.g. listfiles.sh) and then run it from the command line by navigating to the directory where the script is saved and typing ./listfiles.sh.
-
-
-
-
-
-
