@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ ! -e "../$file" ] || [ "$file" -nt "../$file" ]; then cp "$file" ..
