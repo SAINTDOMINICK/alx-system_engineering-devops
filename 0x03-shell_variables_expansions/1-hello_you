@@ -1,0 +1,2 @@
+#!/bin/bashh
+echo "hello $USER"
